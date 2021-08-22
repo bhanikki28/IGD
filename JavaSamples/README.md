@@ -5,7 +5,7 @@
 	Code Sample to iterate through the list and adding filters;
 	Filtering the list by Imperative approach ( declaring temp list to hold the filtered values )
     Filtering the list by Declarative Approach ( using Streams and filters )
-
+    Refer to ImperativeDemo and DeclartiveDemo class
 ## Functional Interface
 
     Using Functional Interface :
@@ -14,7 +14,7 @@
             Chaining of Functions - Chain Functions to do one or more operations , output of one is fed to another function ( PIPE )
                 eg : apply(), andThen() and thenCompose()
                 
-
+    Refer to FuncInterfaceDemo
 
 ## Streams 
 
