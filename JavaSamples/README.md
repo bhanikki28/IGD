@@ -44,7 +44,9 @@
 
 ## Optional
 
-
+    - Better way of Handling Null Check
+    - Avoid potential Null Pointer Exception
+    - Avoid boilerplate coding
 
 ## Method Reference
 
