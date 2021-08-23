@@ -19,7 +19,7 @@
                          Pass argument using apply() method
                          Refer to FuncInterfaceDemo
 
-    BiFunction Interface :  takes two argument and returns one 
+    BiFunction Interface :  Takes two argument and returns one 
                             Pass argument using apply() method
                             Refer to FuncInterfaceDemo
 
