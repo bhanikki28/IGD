@@ -1,8 +1,8 @@
 # Getting Started
 
-## PostgreSQL DB changes
+## DB changes
 
-	SET search_path TO public;
+	SET search_path TO public; // This has to be done in SQL client
 	Set below spring data props(keys) for Spring Boot to connect to DB in application.properties
 		spring.datasource.url
 		spring.datasource.username
@@ -18,6 +18,10 @@
     @DeleteMapping  -   for 'Delete' operations
     @PathVariable   -   for url params
 
+## Exception Handling
+    
+    Spring Boot provides support for centralized Exception handling
+    using @ControllerAdvice, @ExceptionHandler and @ResponseStatus annotations
 
 ## Swagger Definition
 
