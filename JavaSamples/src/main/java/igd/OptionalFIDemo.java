@@ -1,5 +1,7 @@
 package igd;
 
+import model.Celebrity;
+
 import java.util.Optional;
 
 /**
@@ -7,6 +9,11 @@ import java.util.Optional;
  * - Better way of Handling Null Check
  * - Avoid potential Null Pointer Exception
  * - Avoid boilerplate coding
+ *  If class has n number of attributes, its not good practice to do null check for all attributes - Here, Optional
+ *  interface introduced in Java8 comes to our rescue
+ *  empty()
+ *  ofNullable()
+ *  of()
  */
 public class OptionalFIDemo {
     public static void main(String[] args) {
@@ -23,5 +30,11 @@ public class OptionalFIDemo {
         if(optionalString.isPresent()){
             System.out.println(optionalString.get().toString());
         }
+
+        Celebrity celeb = new Celebrity("Sachin", null,45,40000);
+
+        Optional<String> sportOptional = Optional.ofNullable(celeb.getSport());
+        System.out.println(sportOptional.get().toString());
+
     }
 }
