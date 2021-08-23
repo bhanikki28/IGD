@@ -16,6 +16,8 @@
 
 ## Functional Interface
 
+    Interface having only one abstract method
+
     Using Functional Interface :
             Predicate  - Functional Interface to take one argument and do return boolen value
             Function   - FI to take one argument and return it
@@ -65,6 +67,9 @@
     Used in tandem with streams api to map the element ( do transformation ) operation
     Refer to MapDemo class 
 
+## FlatMap
+    Used to flatten the 2D list to single dimensional list and do mapping operation
+    Refer to FlatMapDemo class
 
 ## Method Reference
 
