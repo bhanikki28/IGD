@@ -15,12 +15,14 @@
                 eg : apply(), andThen() and thenCompose()
                 
     Refer to FuncInterfaceDemo
+
     BiFunction Interface :  takes two argument and returns one 
                             Pass argument using apply() method
 
     Consumer Interface : Takes one argument and returns no argument. 
                          To pass argument to consumer interface,use accept(T t) method
                          Refer to ConsumerFuncDemo class
+    
     Predicate Interface : Takes one argument and returns Boolean value
                           Pass argument using test()
                           Refer to PredicateFuncDemo class
