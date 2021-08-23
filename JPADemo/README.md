@@ -18,6 +18,16 @@
     @DeleteMapping  -   for 'Delete' operations
     @PathVariable   -   for url params
 
+## Spring Boot Logging
+    
+    Spring Boot provides support for Logging. It comes with support for SLF4J logging
+    Logging Levels can be at 
+        1. INFO
+        2. DEBUG
+        3. TRACE
+        4. ERROR
+        5. WARN
+
 ## Exception Handling
     
     Spring Boot provides support for centralized Exception handling
