@@ -48,3 +48,7 @@
 
 
 ## Method Reference
+
+    Method Reference is denoted by ClassName :: MethodName
+                    for eg :  sorted(Comparator.comparing(Celebrity::getName))  // here Celebrity is the class name followed
+                              by :: and then by method name i.e getName
