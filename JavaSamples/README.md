@@ -44,6 +44,11 @@
 
 ## Streams 
 
+    ![img.png](img.png)
+    
+    Brings functional programming to Java
+    Uses Lambda expressions
+
     Using Java Streams to filter the list based on predicate
      Streams will have three parts
      1. Source to Operate i.e Input , it can be list
