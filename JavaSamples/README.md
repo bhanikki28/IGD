@@ -1,5 +1,13 @@
 # Getting Started
 
+    Code Samples to demonstrate
+        1. Functional Interface
+        2. Streams
+        3. Method References
+        4. Optional 
+        5. Map
+        6. FlatMap
+
 ### Imperative v Declarative Approach
 
 	    1. Filtering the list by Imperative approach ( declaring temp list to hold the filtered values )
