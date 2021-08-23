@@ -20,7 +20,7 @@
 
     Consumer Interface : Takes one argument and returns no argument. 
                          To pass argument to consumer interface,use accept(T t) method
-
+                         Refer to ConsumerFuncDemo class
 ## Streams 
 
 
