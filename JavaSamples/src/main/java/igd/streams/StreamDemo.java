@@ -30,5 +30,13 @@ public class StreamDemo {
                 .sorted(Comparator.comparing(Celebrity::getName))  // Method Reference
                 .collect(Collectors.toList())
                 .forEach(System.out::println);
+
+
+        System.out.println("3. Streams Map Demo ");
+        celebList.stream()
+                . map(celeb -> celeb.getSport())
+                .collect(Collectors.toSet())
+                .forEach(System.out::println);
+
     }
 }
