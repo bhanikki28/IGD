@@ -1,5 +1,22 @@
 # Getting Started
 
+## Spring Initializr
+
+    To bootstrap/initializer your SpringBoot project, use https://start.spring.io/
+    Provide the below inputs and click on generate
+        1. Choose Maven or Gradle Project
+        2. Choose Language ( Java / Kotlin / Groovy )
+        3. Spring Boot Version to use
+        4. Group ID ( eg : com.igd.demo)
+        5. Artifact ( Project name eg : SpringBootSample )
+        6. Name 
+        7. Description for your project
+        8. Package Name
+        9. Packaging Type ( Jar/War )
+        10. Java Version ( 8/11/16 )
+
+    Once the project got generated , we can import it in IDE as maven/gradle project
+
 ## DB changes
 
 	SET search_path TO public; // This has to be done in SQL client
@@ -39,7 +56,10 @@
 ## Exception Handling
     
     Spring Boot provides support for centralized Exception handling
-    using @ControllerAdvice, @ExceptionHandler and @ResponseStatus annotations
+    using 
+        1. @ControllerAdvice
+        2. @ExceptionHandler and 
+        3. @ResponseStatus annotations
 
 ## Swagger Definition
 
