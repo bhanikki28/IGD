@@ -14,13 +14,14 @@
             Chaining of Functions - Chain Functions to do one or more operations , output of one is fed to another function ( PIPE )
                 eg : apply(), andThen() and thenCompose()
                 
-    Refer to FuncInterfaceDemo
     
     Function Interface : Takes one argument and returns one
                          Pass argument using apply() method
+                         Refer to FuncInterfaceDemo
 
     BiFunction Interface :  takes two argument and returns one 
                             Pass argument using apply() method
+                            Refer to FuncInterfaceDemo
 
     Consumer Interface : Takes one argument and returns no argument. 
                          To pass argument to consumer interface,use accept(T t) method
@@ -29,8 +30,9 @@
     Predicate Interface : Takes one argument and returns Boolean value
                           Pass argument using test()
                           Refer to PredicateFuncDemo class
-
-
+    
+    Supplier Interface : Takes no argument and returns one
+                            Refer to SupplierFuncDemo class
 ## Streams 
 
 
