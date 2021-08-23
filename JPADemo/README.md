@@ -61,11 +61,13 @@
         2. @ExceptionHandler and 
         3. @ResponseStatus annotations
 
-## Swagger Definition
+## Swagger Definition and Annotations
 
         Hit the endpoint : http://localhost:<<PORT_NO>>/swagger-ui/index.html
         Here it would be http://localhost:8095/swagger-ui/index.html
-
+        @Api            -   Annotation to specify the API title
+        @ApiOperation   -   to specify api operation value that should come in Swagger UI
+        
 ## Building and Running Spring Boot app
 
         mvn clean install
