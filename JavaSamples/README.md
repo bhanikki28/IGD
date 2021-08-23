@@ -56,6 +56,11 @@
     - Avoid potential Null Pointer Exception
     - Avoid boilerplate coding
 
+## Map
+    Used in tandem with streams api to map the element ( do transformation ) operation
+    Refer to MapDemo class 
+
+
 ## Method Reference
 
     Method Reference is denoted by ClassName :: MethodName
