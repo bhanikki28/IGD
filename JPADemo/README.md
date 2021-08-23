@@ -28,6 +28,14 @@
         4. ERROR
         5. WARN
 
+    Spring Boot by default logs to console and one can configure the logs to
+    be writtent to File ( Customization )
+
+    Log Appenders can be of two types
+
+        1. Console Appender
+        2. File Appender
+
 ## Exception Handling
     
     Spring Boot provides support for centralized Exception handling
