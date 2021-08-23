@@ -34,7 +34,7 @@ public class StreamDemo {
         System.out.println();
         System.out.println("3. Streams Map Demo ");
         celebList.stream()
-                . map(celeb -> celeb.getSport())
+                . map(Celebrity::getSport)// Method Reference : equivalent to celeb -> celeb.getSport()
                 .collect(Collectors.toSet())
                 .forEach(System.out::println);
 
