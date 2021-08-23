@@ -6,6 +6,7 @@
 	Filtering the list by Imperative approach ( declaring temp list to hold the filtered values )
     Filtering the list by Declarative Approach ( using Streams and filters )
     Refer to ImperativeDemo and DeclartiveDemo class
+
 ## Functional Interface
 
     Using Functional Interface :
@@ -33,7 +34,17 @@
     
     Supplier Interface : Takes no argument and returns one
                             Refer to SupplierFuncDemo class
+
 ## Streams 
+
+    Using Java Streams to filter the list based on predicate
+     Streams will have three parts
+     1. Source to Operate i.e Input , it can be list
+     2. Intermediate Operations : it can be filter, map
+     3. Terminal Operations ( collectors, forEach )
+
+## Optional
+
 
 
 ## Method Reference
