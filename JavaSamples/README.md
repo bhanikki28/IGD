@@ -40,7 +40,7 @@
     Using Java Streams to filter the list based on predicate
      Streams will have three parts
      1. Source to Operate i.e Input , it can be list
-     2. Intermediate Operations : it can be filter, map
+     2. Intermediate Operations : it can be filter, map,sort etc
      3. Terminal Operations ( collectors, forEach )
 
 ## Optional
