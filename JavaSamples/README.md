@@ -15,6 +15,9 @@
                 eg : apply(), andThen() and thenCompose()
                 
     Refer to FuncInterfaceDemo
+    
+    Function Interface : Takes one argument and returns one
+                         Pass argument using apply() method
 
     BiFunction Interface :  takes two argument and returns one 
                             Pass argument using apply() method
