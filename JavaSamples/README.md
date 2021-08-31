@@ -76,3 +76,20 @@
     Method Reference is denoted by ClassName :: MethodName
                     for eg :  sorted(Comparator.comparing(Celebrity::getName))  // here Celebrity is the class name followed
                               by :: and then by method name i.e getName
+
+
+## Concurrency
+
+    ExecutorService - to execute tasks in parallel
+    
+    If you need a submit a task to ExecutorService, your task has to
+    implement Callable interface ( if need a result back ) or can implement Runnable interface run method
+
+    public interface Callable{
+        public Object call() throws Exception;
+    }
+
+## Completable Future / Completion Stage Interface
+
+    Completable Future class got introduced in Java 8
+    
