@@ -1,3 +1,13 @@
+## Features
+
+1. Simplicity
+2. Fast Compile times
+3. Garbage collected
+4. Built-In Concurrency
+5. Compile to standalone binaries
+
+
+
 ## Building the Project
 
 go build main.go
