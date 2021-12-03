@@ -14,6 +14,16 @@
         2. Filtering the list by Declarative Approach ( using Streams and filters )
         Refer to ImperativeDemo and DeclartiveDemo class
 
+## Lambda expressions
+
+        1. Denoted by : () -> {} , anonymous functions i.e function with no name, with optional param and
+           body
+        2. It is different from normal method , as it does not have a name and its not
+           bind to a particular function
+        3. Refer to lambda.demo package for using lamdba expressions to call functional interface
+
+
+
 ## Functional Interface
 
     Interface having only one abstract method
