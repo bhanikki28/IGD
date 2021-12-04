@@ -86,6 +86,8 @@
      Inside Streams :  list : filter/map/reduce : collect
      ![img.png](img.png)
 
+     Debugging Streams : use peek() in filter chain to see the value or use streams trace view
+
 ## Optional
 
     - Better way of Handling Null Check
