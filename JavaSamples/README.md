@@ -60,12 +60,31 @@
     
     Brings functional programming to Java
     Uses Lambda expressions
+    Streams - to process the collection of objects ( map, reduce, transformation )
 
     Using Java Streams to filter the list based on predicate
      Streams will have three parts
      1. Source to Operate i.e Input , it can be list
      2. Intermediate Operations : it can be filter, map,sort,allMatch, anyMatch etc
      3. Terminal Operations ( collectors, forEach )
+
+     Parallel Operations are easy to perform using Streams compared to fork feature 
+     introduced in Java7
+    
+     Stream Intermediate Operations:
+
+     1. map - apply the function ( map) to the elements in stream
+     2. filter - pick the elements matching the condition/predicate
+     3. sort - sort the stream based on comparator
+
+     Stream Terminal Operations
+
+     1. Collect : collect(Collectors.toList())
+     2. forEach : to iterate through the stream
+     3. reduce : reduce
+     
+     Inside Streams :  list : filter/map/reduce : collect
+     ![img.png](img.png)
 
 ## Optional
 

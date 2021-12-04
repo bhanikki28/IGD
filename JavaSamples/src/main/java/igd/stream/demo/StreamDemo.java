@@ -20,7 +20,8 @@ public class StreamDemo {
 
         Predicate<Celebrity> tennisPredicate = celeb -> celeb.getSport().equals("Tennis");
         celebList.stream()
-                . filter(tennisPredicate)
+                .filter(tennisPredicate)  // passing the predicate to filter
+                .map(Celebrity::getName)// method Reference
                 .collect(Collectors.toList())
                 .forEach(System.out::println);
 
