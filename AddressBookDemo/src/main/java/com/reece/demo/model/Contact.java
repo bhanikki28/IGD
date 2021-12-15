@@ -19,7 +19,6 @@ public class Contact {
     @Pattern(regexp = "^[a-zA-Z][a-zA-Z0-9-]*$", message = "last name must be alphanumeric and start with character")
     private String lastName;
 
-    //TODO: more validations using custom validator
     @NotNull(message = "Please provide phone numbers")
     @NotEmpty(message = "Please provide phone numbers")
     List<String> phoneNumbers;
