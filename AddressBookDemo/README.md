@@ -43,8 +43,8 @@ Configuring Swagger
 
 ### Dockerization
 
-mvn clean install - to generate jar file
-docker build -t address-book:1 .
-docker run -p 8080:8080 address-book:1
+    mvn clean install - to generate jar file
+    docker build -t address-book:1 .
+    docker run -p 8080:8080 address-book:1
 
 
