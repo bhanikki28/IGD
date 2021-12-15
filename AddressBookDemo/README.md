@@ -51,4 +51,19 @@ Configuring Swagger
     docker build -t address-book:1 .
     docker run -p 8080:8080 address-book:1
 
+### Deployment into Kubernetes
+
+    Sample yml file placed under resources/k8s folder to deploy into k8s
+
+    Namespace:
+        Syntax : kubectl create ns <<namespace_name>>
+        kubectl create ns igd
+    
+    To create deployment , pls run below commands
+    
+    kubectl create -f deployment.yml -n igd
+    kubectl get deploy -n igd
+    
+    Expose it as a service
+    kubectl expose deployment address-app -n igd --type=LoadBalancer --port=8080 
 
