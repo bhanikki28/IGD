@@ -43,6 +43,7 @@ Configuring Swagger
 ### Running the Test    
 
     mvn test
+    jacaco reports can be found at : target/site/jacoco/index.html
 
 ### Dockerization
 
