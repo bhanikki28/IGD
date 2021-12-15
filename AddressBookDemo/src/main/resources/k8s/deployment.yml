@@ -1,0 +1,27 @@
+apiVersion: apps/v
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: address-app
+  name: address-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: address-app
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: address-app
+    spec:
+      containers:
+        - image: igd/address-book:1
+          name: address-app
+          imagePullPolicy: Never
+          resources: {}
+          ports:
+            - containerPort: 8080
+status: {}1
