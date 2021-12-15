@@ -39,6 +39,9 @@ Configuring Swagger
 
     mvn clean install
     mvn clean spring-boot:run
+
+### Running the Test    
+
     mvn test
 
 ### Dockerization
