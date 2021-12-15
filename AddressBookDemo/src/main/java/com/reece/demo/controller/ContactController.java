@@ -12,9 +12,6 @@ import io.swagger.annotations.ApiOperation;
 
 import javax.validation.Valid;
 
-/**
- *
- */
 @RestController
 @RequestMapping("/api/v1")
 @Api(value = "Address Book Management", protocols = "http")
