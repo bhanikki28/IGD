@@ -4,27 +4,21 @@ package com.reece.demo.controller;
 import com.reece.demo.model.Contact;
 import com.reece.demo.service.ContactService;
 import com.reece.demo.starter.AddressBookDemoApplication;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
-import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
-import org.springframework.test.web.servlet.result.StatusResultMatchers;
-import static org.assertj.core.api.Assertions.assertThat;
 
-
-import static org.assertj.core.api.Assertions.setPrintAssertionsDescription;
-import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.Mockito.when;
 import java.util.*;
+
+import static org.mockito.Mockito.when;
 
 @SpringBootTest(classes = AddressBookDemoApplication.class)
 @AutoConfigureMockMvc
