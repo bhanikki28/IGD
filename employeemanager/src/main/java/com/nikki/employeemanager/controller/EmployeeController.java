@@ -30,7 +30,6 @@ public class EmployeeController {
 
     }
 
-    // TO DO : need to fix this update operation, its doing an insert
     @PutMapping("/employees/update")
     public ResponseEntity<Employee> updateEmployee(@RequestBody Employee employee) {
         Employee updatedEmployee = empService.saveEmployee(employee);;
