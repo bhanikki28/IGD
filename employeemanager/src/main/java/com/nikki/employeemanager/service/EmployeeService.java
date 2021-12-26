@@ -21,6 +21,7 @@ public class EmployeeService {
          return empRepository.save(employee);
     }
 
+    // TO DO : need to find a way to incorporate orElseThrow 'Employee Not Found Exception'
     public Employee getEmployee(Long id) {
         return empRepository.getById(id);
     }

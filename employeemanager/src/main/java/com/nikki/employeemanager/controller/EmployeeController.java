@@ -3,6 +3,7 @@ package com.nikki.employeemanager.controller;
 import com.nikki.employeemanager.model.Employee;
 import com.nikki.employeemanager.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -16,9 +17,10 @@ public class EmployeeController {
     private EmployeeService empService;
 
     @GetMapping("/employees")
-    public List<Employee> getEmployees(){
+    public ResponseEntity<List<Employee>> getEmployees(){
         System.out.println("Inside Get Employees");
-        return empService.getAllEmployees();
+        List<Employee> employeeList = empService.getAllEmployees();
+        return new ResponseEntity<>(employeeList,HttpStatus.OK);
     }
 
     @PostMapping("/employees")
@@ -29,9 +31,9 @@ public class EmployeeController {
     }
 
     @GetMapping("/employee/{id}")
-    public Employee addEmployee(@PathVariable String id) {
+    public ResponseEntity<Employee> getEmployee(@PathVariable String id) {
 
-        return empService.getEmployee(Long.valueOf(id));
+        return new ResponseEntity<>(empService.getEmployee(Long.valueOf(id)), HttpStatus.OK);
 
     }
 
