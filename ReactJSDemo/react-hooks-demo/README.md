@@ -18,7 +18,13 @@ Types of React Hooks <br/>
                       <StateHookDemo />
 
 
-##  useReducer
+##  useEffect
+
+    useEffect React Hook is to do sideEffect and to fetch data, whenever state changes. It will get called whenever component mounted (initially), component got changed and component got released. Also, dependency can be added for which state, useEffect should be hooked.
+
+        1. componentDidMount
+        2. componentDidUpdate
+        3. componentDidRelease
 
 
 
