@@ -1,7 +1,7 @@
 # React Hooks
 
 Types of React Hooks
-    1. useState
+    1. useState <br>
     2. useEffect
     3. useReducer
     4. useCallBack
