@@ -7,13 +7,15 @@ Types of React Hooks <br/>
     4. useCallBack <br/>
     5. useMemo <br/>
 
-## useEffect 
+## useState 
 
     Declaring the state and modifying the state using useState() React Hook
     eg:
         let [count,setCount] = useState(0)
         above example, declares the state count and initialzing it to zero.
         Then using the setCount function, the state can be modified 
+        Then the component can be rendered into App.js by
+                      <StateHookDemo />
 
 
 ##  useReducer
