@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import StateHookDemo from './component/StateHookDemo';
+import StateHookDemo from './component/UseState/StateHookDemo';
 
 function App() {
   return (

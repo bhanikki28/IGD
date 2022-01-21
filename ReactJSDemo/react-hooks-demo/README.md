@@ -1,6 +1,6 @@
 # React Hooks
 
-Types of React Hooks
+Types of React Hooks <br/>
     1. useState <br/>
     2. useEffect <br/>
     3. useReducer <br/>
