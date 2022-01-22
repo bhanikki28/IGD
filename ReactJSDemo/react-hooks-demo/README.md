@@ -22,6 +22,15 @@ Types of React Hooks <br/>
     useReducer Hook is helpful if we need to update more than one state based on a actionType
     It has dispatcher and reduce function to modify the state based on the actionType been passed to the function
 
+    Declaration:
+            Import Reducer hook, and declare state(s) with dispatch and reducer function to handle multiple States as below
+            const [state,dispatch] = useReducer(reducer, {count: 0,showCounter:true})
+
+            reducer function will take state and action as parameter
+            const reducer = (state,action) => {
+            It will set the state based on the action.type been passed 
+
+
 
 ##  useEffect
 
