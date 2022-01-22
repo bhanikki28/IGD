@@ -17,6 +17,11 @@ Types of React Hooks <br/>
         Then the component can be rendered into App.js by
                       <StateHookDemo />
 
+## useReducer 
+
+    useReducer Hook is helpful if we need to update more than one state based on a actionType
+    It has dispatcher and reduce function to modify the state based on the actionType been passed to the function
+
 
 ##  useEffect
 
