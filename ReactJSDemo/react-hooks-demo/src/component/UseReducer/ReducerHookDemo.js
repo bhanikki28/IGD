@@ -30,15 +30,15 @@ const ReducerHookDemo = () => {
                 return {count : state.count+1, showCounter : state.showCounter}
             case "toggleShowCount" :
                 return {count : state.count, showCounter : !state.showCounter}
+            case "Decrement" : 
+                return {count : state.count-1, showCounter : state.showCounter}
+            
             default:
                 return state
         }
 
     };
-    const [state,dispatch] = useReducer(reducer, 
-        {count: 0,showCounter:true}
-    
-        )
+    const [state,dispatch] = useReducer(reducer, {count: 0,showCounter:true})
    
     return (
         <div>
@@ -50,7 +50,18 @@ const ReducerHookDemo = () => {
 
             }}
             >
-                Count Incrementer
+                Increment Count
+            </button>
+            <br/>
+            <br/>
+            <button 
+            onClick = {() => {
+                dispatch({type :"Decrement"});
+                dispatch({type :"toggleShowCount"});
+
+            }}
+            >
+                Decrement Count
             </button>
 
             { state.showCounter && <p> Count Value is : {state.count}</p> }
