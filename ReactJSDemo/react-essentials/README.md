@@ -63,10 +63,12 @@ You may also see any lint errors in the console.
 ### Conditional Rendering , Hooks ( useEffect, useState, useReducer) , Array Destructuring
 
         1. Render Components conditionally : { props.authorised ? ( <Component1 /> ): (<Component2 />)}
+
         2. /* Array Destructuring Demo */
             const [,,thirdItem] = ["one","two","three"];
             console.log(thirdItem); 
             Array Destructuring would be helpful, when it comes to deal with React Hooks like useState.
+            
         3. Object Destructuring
             without using props, directly accessing the key value in the Component
             eg : function Header( {key}){
