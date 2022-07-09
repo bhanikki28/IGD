@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: bookstore-app
+  name: bookstore-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: bookstore-app
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: bookstore-app
+    spec:
+      containers:
+      - image: com.anz.app/bookstore:1
+        name: bookstore-app
+        imagePullPolicy: Never
+        resources: {}
+        ports:
+          - containerPort: 8080
+status: {}

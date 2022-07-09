@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3940c4fe-e3dd-48b6-99b9-d93c360a835f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../JavaSamples/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaSamples/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactJSDemo/react-essentials/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactJSDemo/react-essentials/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactJSDemo/react-essentials/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactJSDemo/react-essentials/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactJSDemo/react-hooks-demo/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactJSDemo/react-hooks-demo/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactJSDemo/react-hooks-demo/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactJSDemo/react-hooks-demo/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactJSDemo/react-hooks-demo/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactJSDemo/react-hooks-demo/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ReactJSDemo/react-hooks-demo/src/component/UseEffect/EffectHookDemo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../ReactJSDemo/react-hooks-demo/src/component/UseEffect/EffectHookDemo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SBAngularDemo/src/main/java/com/nikki/igd/starter/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SBAngularDemo/src/main/java/com/nikki/igd/starter/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SBAngularDemo/src/main/java/com/nikki/igd/starter/exception/ErrorDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SBAngularDemo/src/main/java/com/nikki/igd/starter/exception/ErrorDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SBAngularDemo/src/main/java/com/nikki/igd/starter/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SBAngularDemo/src/main/java/com/nikki/igd/starter/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SBAngularDemo/src/main/java/com/nikki/igd/starter/exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SBAngularDemo/src/main/java/com/nikki/igd/starter/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SBAngularDemo/src/main/java/com/nikki/igd/starter/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SBAngularDemo/src/main/java/com/nikki/igd/starter/model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SBAngularDemo/src/main/java/com/nikki/igd/starter/repository/EmployeeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SBAngularDemo/src/main/java/com/nikki/igd/starter/repository/EmployeeRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringReactiveDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringReactiveDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringReactiveDemo/src/main/java/com/igd/nikki/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringReactiveDemo/src/main/java/com/igd/nikki/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringReactiveDemo/src/main/java/com/igd/nikki/entity/EmployeeDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringReactiveDemo/src/main/java/com/igd/nikki/entity/EmployeeDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringReactiveDemo/src/main/java/com/igd/nikki/exception/EmployeeExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringReactiveDemo/src/main/java/com/igd/nikki/exception/EmployeeExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringReactiveDemo/src/main/java/com/igd/nikki/exception/ExceptionResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringReactiveDemo/src/main/java/com/igd/nikki/exception/ExceptionResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringReactiveDemo/src/main/java/com/igd/nikki/exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringReactiveDemo/src/main/java/com/igd/nikki/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employeemanager/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../employeemanager/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../employeemanager/src/main/java/com/nikki/employeemanager/EmployeemanagerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../employeemanager/src/main/java/com/nikki/employeemanager/EmployeemanagerApplication.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2BYte3QoADdclI3VjvBx01qCVcQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3940c4fe-e3dd-48b6-99b9-d93c360a835f" name="Changes" comment="" />
+      <created>1657094939438</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657094939438</updated>
+    </task>
+    <servers />
+  </component>
+</project>
