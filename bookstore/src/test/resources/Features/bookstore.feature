@@ -1,7 +1,11 @@
 Feature: Get All Books
 
   @GetAllBooks
-  Scenario: Find Book By Id
-    Given I need to get list of books in bookstore
-    When I submit GET request at /bookstore/v1/books
-    Then I should receive HTTP response in JSON format with complete book details.
+  Scenario Outline: Get All Books
+  Given I send a request to the URL "/bookstore/v1/books" to get list of books
+  Then the response will return status 200
+  
+  @GetBookById
+  Scenario Outline: Get Book By Id
+  Given I send a request to the URL "/bookstore/v1/books/" to get book by "id"
+  Then get book by id will return status 200	
