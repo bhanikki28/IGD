@@ -27,6 +27,8 @@
 
 ###  Testing the App
 
+	 ## Unit testing with JUnit 
+	 
 	 Unit testing is done through JUnit/Mockito
 	 Test coverage is done through JaCaCo Plugin
 	 
@@ -37,7 +39,17 @@
 	 Check is added on JaCaCo Plugin to fail the build
 	 		-	If the line coverage is less than 80%
 	 		-	If the branch coverage is less than 70%
-
+	 		
+	 
+	## Integration Testing with RestAssured
+	BDD is defined in src/test/resources/Features/bookstore.feature
+	
+	Please run : mvn clean install
+	
+	Cucumber reports will be generated ( check the command console )
+	
+	https://reports.cucumber.io/reports/e06be096-9e07-4ff8-bd24-0ff25e12e862
+	
 
 ###  Testing the Api 
 
