@@ -3,7 +3,6 @@ package com.anz.bookstore.definitions;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
-import java.time.LocalDate;
 import java.util.List;
 import java.util.Map;
 
@@ -55,12 +54,12 @@ public class SpringBootCucumberTestDefinitions {
 	public void getBookById(String endpoint, String id) throws Throwable {
 		validatableResponse = requestSpecification().contentType(ContentType.JSON).when().get(endpoint).then();
 		System.out.println("RESPONSE :" + validatableResponse.extract().asString());
+		
 	}
 
 	@Then("get book by id will return status {int}")
 	public void getBookResponse(int status) {
 		validatableResponse.assertThat().statusCode(equalTo(status));
-
 	}
 	
 	@Given("I send a request to the URL {string} to search book")
