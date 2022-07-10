@@ -23,6 +23,10 @@
 		This App is using inmemory h2 database for storing the books in table : TBL_BOOKS
 		When application starts up, it will look at data.sql/schema.sql file to create and load initial data to the table
 		Later data(book) can be inserted/queried using API as mentioned above
+		1.	Authentication for the application is not required.
+		2.	Requests are made to valid endpoints always.
+		3.	Json Book data in the HTTP body will always be valid.
+		
 
 
 ###  Testing the App
