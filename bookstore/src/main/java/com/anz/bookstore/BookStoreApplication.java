@@ -1,6 +1,7 @@
 package com.anz.bookstore;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
@@ -11,7 +12,8 @@ import springfox.documentation.service.ApiInfo;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 
-@SpringBootApplication
+@SpringBootApplication(scanBasePackages = "com.anz")
+@EnableAutoConfiguration
 public class BookStoreApplication {
 
 	public static void main(String[] args) {
@@ -24,7 +26,7 @@ public class BookStoreApplication {
 					.groupName("bookstore-api")
 					.apiInfo(apiInfo())
 					.select()
-					.apis(RequestHandlerSelectors.basePackage("com.nikki.demo.controller"))
+					.apis(RequestHandlerSelectors.basePackage("com.anz.bookstore.controller"))
 					.paths(PathSelectors.any())
 					.build();
 	}
